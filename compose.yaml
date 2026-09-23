@@ -1,0 +1,10 @@
+services:
+  fruit-detector:
+    build: .
+    volumes:
+      - ./videos:/app/videos:ro
+      - ./output:/app/output
+      - huggingface-cache:/root/.cache/huggingface
+
+volumes:
+  huggingface-cache:

@@ -1,0 +1,9 @@
+# CPU-only PyTorch wheel; the extra index prevents installation of CUDA builds.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy
+opencv-python-headless==4.10.0.84
+Pillow
+torch==2.6.0+cpu
+torchvision==0.21.0+cpu
+transformers
