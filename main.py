@@ -592,16 +592,6 @@ while True:
                 )
 
 
-        # Tu následne môže ísť klasifikácia:
-        #
-        # for candidate in selected:
-        #     probabilities = classifier(
-        #         candidate["frame"]
-        #     )
-        #
-        # potom spriemerovať probabilities
-
-
         finished = True
 
 
